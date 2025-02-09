@@ -46,5 +46,16 @@ public class Main
         var df = mass2 - mass1;
         System.out.println("df mass = " + df);
 
+        //exercise 7
+        var mod =  mass1 % mass2;
+        System.out.println("mod mass = " + mod);
+
+        //exercise 8
+        var allTime = 640;
+        var workTime = 8;
+        var countEmployer = allTime/workTime;
+        System.out.println("Всего работников в компании — " + countEmployer + " человек");
+        countEmployer += 94;
+        System.out.println("Если в компании работает " + countEmployer + " человек, то всего " + countEmployer*workTime + " часов работы может быть поделено между сотрудниками." );
     }
 }
